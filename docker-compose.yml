@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  ex-ms-demo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ex-ms-demo:latest
+    ports:
+      - 8080:8080
